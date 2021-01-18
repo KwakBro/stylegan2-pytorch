@@ -37,4 +37,4 @@ class MultiResolutionDataset(Dataset):
         img = Image.open(buffer)
         img = self.transform(img)
 
-        return img
+        return img 
